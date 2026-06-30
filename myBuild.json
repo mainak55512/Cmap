@@ -1,0 +1,23 @@
+{
+    "project_name": "cmap",
+    "project_language": "c",
+    "compiler_path": "gcc",
+    "include_paths": [
+        "include"
+    ],
+    "src": [
+        "lib"
+    ],
+    "dependencies": {
+        "arena": {
+            "version": "0.1.1",
+            "include_paths": [
+                "include"
+            ],
+            "src": [
+                "lib"
+            ],
+            "remote": "https://github.com/mainak55512/arena"
+        }
+    }
+}
