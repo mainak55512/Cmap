@@ -2,6 +2,11 @@
     "project_name": "cmap",
     "project_language": "c",
     "compiler_path": "gcc",
+    "executable": false,
+    "flags": [
+        "-O3",
+        "-s"
+    ],
     "include_paths": [
         "include"
     ],
@@ -18,6 +23,16 @@
                 "lib"
             ],
             "remote": "https://github.com/mainak55512/arena"
+        },
+        "container": {
+            "include_paths": [
+                "include"
+            ],
+            "src": [
+                "lib"
+            ],
+            "remote": "https://github.com/mainak55512/container"
         }
-    }
+    },
+    "lib_links": []
 }
