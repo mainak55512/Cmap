@@ -8,29 +8,21 @@
         "-s"
     ],
     "include_paths": [
-        "include"
+        "include",
+        "deps/arena/include",
+        "deps/container/include"
     ],
     "src": [
-        "lib"
+        "lib",
+        "deps/arena/lib",
+        "deps/container/lib"
     ],
     "dependencies": {
         "arena": {
             "version": "0.1.1",
-            "include_paths": [
-                "include"
-            ],
-            "src": [
-                "lib"
-            ],
             "remote": "https://github.com/mainak55512/arena"
         },
         "container": {
-            "include_paths": [
-                "include"
-            ],
-            "src": [
-                "lib"
-            ],
             "remote": "https://github.com/mainak55512/container"
         }
     },
