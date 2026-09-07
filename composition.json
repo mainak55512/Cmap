@@ -2,6 +2,7 @@
     "project_name": "cmap",
     "project_language": "c",
     "compiler_path": "gcc",
+    "version": "v0.1.1",
     "executable": false,
     "flags": [
         "-O3",
@@ -19,10 +20,11 @@
     ],
     "dependencies": {
         "arena": {
-            "version": "0.1.1",
+            "version": "v0.1.1",
             "remote": "https://github.com/mainak55512/arena"
         },
         "container": {
+            "version": "v0.1.1",
             "remote": "https://github.com/mainak55512/container"
         }
     },
